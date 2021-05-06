@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Karla', sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body p {
+    line-height: 1.6;
+}
+
+
+body *, body *::after, body *::before, body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
