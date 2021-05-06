@@ -109,3 +109,21 @@
     font-size: 0.9rem;
     line-height: 1.4;
 }
+
+
+@media (min-width: 768px)
+{
+    .price-grid__title 
+    {
+        font-size: 1.4rem;
+    }
+
+    .price-grid__subtitle 
+    {
+        font-size: 1.1rem;
+    }
+    .price-grid__body 
+    {
+        font-size: 1rem;
+    }
+}
