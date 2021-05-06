@@ -1,7 +1,7 @@
 :root {
     --c-1: hsl(179, 62%, 43%);
     --c-2: hsl(71, 73%, 54%);
-    --c-3: hsl(179, 59%, 51%);
+    --c-3: hsl(179, 56%, 48%);
 
     --n-1: hsl(204, 43%, 93%);
     --n-2: hsl(218, 22%, 67%);
@@ -59,6 +59,7 @@
 .price-grid__title-2 {
     font-weight: 400;
     font-size: 1.1rem;
+    margin-bottom: 1em;
 }
 
 
@@ -96,4 +97,15 @@
     font-size: inherit;
     border-radius:5px;
     box-shadow: 0px 0.5em 10px rgba(0,0,0,0.2);
+}
+
+
+.price-grid__features {
+    background: var(--c-3);
+}
+
+
+.price-grid__feature {
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
